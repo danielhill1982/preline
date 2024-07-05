@@ -1,0 +1,17 @@
+<template>
+
+  <div class="max-w-[85rem] mx-auto px-4 sm:px-6 lg:px-8">
+    <div class="max-w-2xl text-left mx-auto">
+    <div class="my-10 sm:columns-2 sm:mr-5 sm:pr-5">
+        <p><NuxtPicture format="jpg" src="/current.jpg" width="200px" height="200px" alt="" title="" :imgAttrs="{style:'border-radius: 50%;'}" /></p>
+        <p class="mt-3 text-lg text-gray-800 dark:text-gray-400">Geboren 1982 in Suhl, hat Daniel seine Kindheit und Jugend in Altendambach und Ehrenberg verbracht. Nach zehn Jahren Schule schloss er 1999 seine Realschulausbildung in Thüringen ab und absolvierte anschließend eine Ausbildung im Bereich “Mediendesign”, die er 2009 erfolgreich beendete. Daniel hat einen jüngeren Bruder und eine Nichte, und seine Eltern stammen aus Altendambach und Bischofrod in Thüringen.</p>
+        <p class="mt-3 text-lg text-gray-800 dark:text-gray-400">Mit einer Größe von 179 cm, dunklen Haaren, grünen Augen und Tätowierungen bringt Daniel 95 Kilogramm auf die Waage. In seiner Freizeit widmet er sich sportlichen Aktivitäten wie Schwimmen, Mountainbiken und Badminton, aber auch dem PC-Gaming, wobei er vor allem Autorennspiele bevorzugt. Zudem zählen Blockbuster-Spiele wie “Witcher” und “Tomb Raider” sowie Shooter von “Destiny” bis “Far Cry” zu seinen Favoriten.</p>
+        <p class="mt-3 text-lg text-gray-800 dark:text-gray-400 break-after-column">Musikalisch neigt Daniel zu grooviger elektronischer Techno-Musik, hört aber auch gerne klassische Retro-Songs, Chill-Out und ein wenig Heimatmusik. In seiner Jugend war er oft mit Freunden auf Partys und feierte in Clubs in ganz Deutschland. Seit dieser Zeit ist er Single und hat keine Kinder. Seit 2010 lebt er in Sonneberg, nicht weit von seinen Heimatorten entfernt. Gesundheitlich geht es ihm gut, obwohl er wegen einer angeborenen Verengung seiner Herzkranzgefäße behandelt wurde. Er hat zwei Jahre vegan gelebt und war Nichtraucher, was für ihn nicht immer einfach war. Leider hat sich sein Gesundheitszustand nicht vollständig auf 100 % verbessert und liegt derzeit bei 60 % seiner Leistungsfähigkeit.</p>
+        <p class="mt-3 text-lg text-gray-800 dark:text-gray-400">Als ausgebildeter Mediendesigner hat Daniel sich auf Webdesign spezialisiert. Einige Jahre lang betrieb er eine Website namens “Minimalistic Design” mit einem “Content-Management-System” wie “Wordpress”. Seine Designs sind durchweg minimalistisch und konzentrieren sich auf eine sehr gute technische Umsetzung. Sie sind schnell, stabil und übersichtlich.</p>
+        <p class="mt-3 text-lg text-gray-800 dark:text-gray-400">Daniel hat umfangreiche Kenntnisse in der Erstellung von Websites, angefangen von “Hyper Text Markup Language” über “Cascading Style Sheets” und “Java-Script” bis hin zu serverseitigen Anwendungen wie “PHP” (Hypertext Preprocessor), “MySQL-Datenbank” und “Content-Management-Systemen”. Auch die Arbeit mit “Frontend-Frameworks” gehört zu seinem Repertoire. Er legt Wert darauf, dass seine Websites “responsive” sind, also auf allen Plattformen wie Smartphones, Tablets und größeren Bildschirmen gut aussehen und der Inhalt für alle sichtbar bleibt. Er ist vertraut mit den Betriebssystemen “Windows” und “Mac OS” sowie “Linux” im Serverbereich und nutzt die “Adobe Creative Cloud”.</p>
+
+</div>
+</div>
+</div>
+
+</template>
