@@ -2,6 +2,6 @@
 export default defineNuxtConfig({
   devtools: { enabled: true },
   plugins: ["~/plugins/preline.client.ts"],
-  modules: ['@nuxtjs/tailwindcss', "@nuxt/image"],
+  modules: ['@nuxtjs/tailwindcss', "@nuxt/image", "@nuxt/icon"],
   compatibilityDate: "2024-07-05"
 })
