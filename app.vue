@@ -1,10 +1,23 @@
+
+
 <template>
   <div>
-    <ClientOnly>
+    
 
-      <PageNavigation />
-      <NuxtPage />
+      <ColMenu v-model="toggleColMenu" />
+      <NuxtPage :transition="{
+      name: 'page',
+      mode: 'out-in',
+      onEnter,
+    }" />
 
-    </ClientOnly>
+    
   </div>
 </template>
+
+<script setup lang="ts">
+const toggleColMenu = ref(false);
+function onEnter() {
+  toggleColMenu.value = !toggleColMenu.value;
+}
+</script>
