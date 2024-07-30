@@ -1,5 +1,5 @@
 <template>
-  <ClientOnly>
+  
   <header class="flex flex-wrap sm:justify-start sm:flex-nowrap w-full bg-white text-sm py-4 dark:bg-neutral-800">
     <nav class="max-w-[85rem] w-full mx-auto px-4 sm:flex sm:items-center sm:justify-between" aria-label="Global">
       <div class="flex items-center justify-between">
@@ -92,12 +92,11 @@
       </div>
     </nav>
   </header>
-</ClientOnly>
+
 </template>
 
 <script setup lang="ts">
 
-import { ClientOnly } from '#build/components';
 import { HSOverlay } from 'preline';
 
 function closeModal() {
